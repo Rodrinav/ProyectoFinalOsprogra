@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  GOOLGE FONTS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+
+
+
+header {
+    background-image: linear-gradient(-90deg, #43cea2, #185a9d);
+    
+    h1 {
+        color: black;
+        text-align: center;
+        
+    }
+
+    nav {      
+        text-transform: uppercase;
+        font-weight: bold;            
+    }
+
+}
+
+
+/******* INDEX *********/
+
+.tituloNoticias {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tituloNoticias h2 {
+    font-size: 50px;
+}
+
+.cardsNovedades {
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.cardUno {
+    padding: 0;
+    margin: 50px;
+}
+
+.cardDos {
+    padding: 0;
+    margin: 50px;
+    
+}
+
+.cardTres {
+    padding: 0;
+    margin: 50px;
+}
+
+.tituloCredencial {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.tituloCredencial h2 {
+    font-size: 50px;
+}
+
+.credencial {
+    
+    margin-bottom: 50px;
+    padding: 1;  
+}
+
+.credencial ul li {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+}
+
+.imagenCredencial {
+    border-radius: 4px;
+}
+
+/* PLANES */
+.cardPlanes {
+    width: 14rem;
+}
+
+.listaPlanes ul li {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;   
+}
+
+
+
+
+
+
+/* CONTACTO  */
+.formulario {
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    margin: 25px;
+    
+}
+
+
+.parrafos {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 22px;
+    
+}
+
+
+footer {
+    background-image: linear-gradient(-90deg, #43cea2, #185a9d);
+}
