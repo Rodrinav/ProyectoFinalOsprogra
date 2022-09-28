@@ -21,8 +21,10 @@ header {
 
     nav {      
         text-transform: uppercase;
-        font-weight: bold;            
-    }
+        font-weight: bold;
+    }     
+        
+        
 
 }
 
@@ -42,24 +44,36 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;}
+
+.cardsNovedades{
+    box-shadow: 0px 1xp 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
     
+}
+.cardsNovedades:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-6%);
 }
 
 .cardUno {
     padding: 0;
     margin: 50px;
+    
 }
 
 .cardDos {
     padding: 0;
     margin: 50px;
+
     
 }
 
 .cardTres {
     padding: 0;
     margin: 50px;
+
 }
 
 .tituloCredencial {
@@ -88,8 +102,15 @@ header {
 }
 
 /* PLANES */
+
+.tituloPlanes{
+    font-size: 50px
+}
+
+
 .cardPlanes {
     width: 14rem;
+    border: 1px solid black;
 }
 
 .listaPlanes ul li {
@@ -123,3 +144,6 @@ header {
 footer {
     background-image: linear-gradient(-90deg, #43cea2, #185a9d);
 }
+
+
+

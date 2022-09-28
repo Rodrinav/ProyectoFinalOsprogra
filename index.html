@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSPROGRA</title>
+    <meta
+      name="description="
+      content="OSPROGRA es la obra social y prepaga que ofrece el más completo servicio de salud en Argentina. Buscá tu médico en nuestra cartilla y realizá trámites en linea"
+    />
     <!-- BOOSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -13,9 +17,15 @@
       crossorigin="anonymous"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
     <!-- FAVICOn -->
-    <link rel="shortcut icon" href="./img/Logo Osprogra.jpg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./img/Logo Osprogra.jpg"
+      type="image/x-icon"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -24,19 +34,37 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./quienes somos.html">Quienes Somos</a>
+                <a class="nav-link" href="./quienes somos.html"
+                  >Quienes Somos</a
+                >
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./planes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="./planes.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Planes
                 </a>
                 <ul class="dropdown-menu">
@@ -45,25 +73,25 @@
                   <li><a class="dropdown-item" href="./440.html">440</a></li>
                 </ul>
               </li>
-              
-              <li class="nav-item">
-                  <a class="nav-link" href="./Sanatorios.html">Sanatorios</a>
-                </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Sanatorios.html">Sanatorios</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
+    <main class="m-3 p-1">
       <div
         id="carouselExampleDark"
         class="carousel carousel-dark slide"
-        data-bs-ride="carousel">
-      
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -92,7 +120,8 @@
             <div class="carousel-caption d-none d-md-block">
               <h2>Credencial Virtual</h2>
               <p>
-                Siempre en tu celular. Ahora usala para acceder a todos los servicios.
+                Siempre en tu celular. Ahora usala para acceder a todos los
+                servicios.
               </p>
             </div>
           </div>
@@ -100,21 +129,16 @@
             <img src="./img/carrusel2.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h2>Receta Digital</h2>
-              <p>
-                Tene tus recetas al alcance de tu mano.
-              </p>
+              <p>Tene tus recetas al alcance de tu mano.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/carrusel3.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h2>Coronavirus</h2>
-              <p>
-                Sintomas y formas de tratamientos.
-              </p>
+              <p>Sintomas y formas de tratamientos.</p>
             </div>
           </div>
-          
         </div>
         <button
           class="carousel-control-prev"
@@ -136,53 +160,70 @@
         </button>
       </div>
       <section class="contNovedades container-fluid">
-          <div class="tituloNoticias">
-            <h2>Novedades</h2>
-          </div>
-        <div>
-
+        <div class="tituloNoticias">
+          <h2>Novedades</h2>
+        </div>
+        <div class="cardsNovedades1">
           <div class="cardsNovedades row">
-            <div class=" col-xl-4 col-md-4 col-xs-12 cardUno card" style="width: 18rem">
+            <div
+              data-aos="zoom-in"
+              class="col-xl-4 col-md-4 col-xs-12 cardUno card"
+              style="width: 18rem"
+            >
               <img src="./img/covid.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">COVID-19</h5>
+                <h3 class="card-title">COVID-19</h3>
                 <p class="parrafos card-text">
                   Informacion util sobre sintomas, atencion medica y
-                  recomendaciones de aislamiento.
+                  recomendaciones de aislamiento. Cuales son las nuevas vacunas
+                  y que efectividad tienen.
                 </p>
                 <a href="#" class="btn btn-primary mt-5">Leer mas</a>
               </div>
             </div>
 
-            <div class="col-xl-4 col-md-4 col-xs-12 cardDos card" style="width: 18rem">
+            <div
+              data-aos="zoom-in"
+              class="col-xl-4 col-md-4 col-xs-12 cardDos card"
+              style="width: 18rem"
+            >
               <img src="./img/receta.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Receta de medicamentos</h5>
+                <h3 class="card-title">Receta de medicamentos</h3>
                 <p class="parrafos card-text">
                   Podes acceder a la compra de medicamentos en las farmacias de
-                  cartilla, llevando la orden enviada por tu medico por cualquier
-                  medio online (mail, whatsapp, etc).
+                  cartilla, llevando la orden enviada por tu medico por
+                  cualquier medio online (mail, whatsapp, etc).
                 </p>
                 <a href="#" class="btn btn-primary">Leer mas</a>
               </div>
             </div>
 
-            <div class="col-xl-4 col-md-4 col-xs-12 cardTres card" style="width: 18rem">
-              <img src="./img/Teleconsulta.jpg" class="card-img-top" alt="..." />
+            <div
+              data-aos="zoom-in"
+              class="col-xl-4 col-md-4 col-xs-12 cardTres card"
+              style="width: 18rem"
+            >
+              <img
+                src="./img/Teleconsulta.jpg"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
-                <h5 class="card-title">Consulta online</h5>
+                <h3 class="card-title">Consulta online</h3>
                 <p class="parrafos card-text">
                   Accede a nuestro servicio de atencion medica por videollamada
-                  todos los dias las 24hs, desde la web o la app Osprogra mobile.
+                  todos los dias las 24hs, desde la web o la app Osprogra
+                  mobile.
                 </p>
-                <a href="#" class="btn btn-primary mt-4">Leer mas</a>
+                <a href="#" class="btn btn-primary mt-5">Leer mas</a>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="container credencial">
-        <div class="row">
+        <div data-aos="zoom-in" class="row">
           <div class="tituloCredencial">
             <h2>Usa tu credencial digital</h2>
           </div>
@@ -194,9 +235,11 @@
             />
           </div>
           <div class="col-xl-6 md-6 sm-12">
-            <p class="parrafos">Activa tu credencial y llevala siempre con vos</p>
+            <p class="parrafos">
+              Activa tu credencial y llevala siempre con vos
+            </p>
             <ul>
-              <li> Practica y segura</li>
+              <li>Practica y segura</li>
               <li>La podes usar sin conexion</li>
               <li>
                 Activá también las de tu grupo familiar, y compartila si
@@ -214,35 +257,84 @@
           <div class="col-lg-3 col-md-6 col-xs-12">
             <h5 class="ms-2">Osprogra</h5>
             <div>
-              <a class="text-black text-decoration-none p-1 m-1" href="https://www.argentina.gob.ar/sssalud" target="_blank">SuperIntendencia de Servicios de Salud</a>
+              <a
+                class="text-black text-decoration-none p-1 m-1"
+                href="https://www.argentina.gob.ar/sssalud"
+                target="_blank"
+                >SuperIntendencia de Servicios de Salud</a
+              >
             </div>
             <div>
-              <a class="text-black text-decoration-none p-1 m-1" href="./quienes somos.html">¿Quienes Somos?</a>
+              <a
+                class="text-black text-decoration-none p-1 m-1"
+                href="./quienes somos.html"
+                >¿Quienes Somos?</a
+              >
             </div>
             <div>
-              <a class="text-decoration-none text-black p-1 m-1" href="./contacto.html">¿Queres trabajar con nosotros?</a>
+              <a
+                class="text-decoration-none text-black p-1 m-1"
+                href="./contacto.html"
+                >¿Queres trabajar con nosotros?</a
+              >
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
             <h5>Sanatorios</h5>
-            <a class="text-decoration-none text-black" href="./Sanatorios.html">Nuestros Sanatorios</a>
+            <a class="text-decoration-none text-black" href="./Sanatorios.html"
+              >Nuestros Sanatorios</a
+            >
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
             <h5>Planes</h5>
-            <div><a class="text-decoration-none text-black" href="./220.html">Plan 220</a></div>
-            <div><a class="text-decoration-none text-black" href="./330.html">Plan 330</a></div>
-            <div><a class="text-decoration-none text-black" href="./440.html">Plan 440</a></div>
+            <div>
+              <a class="text-decoration-none text-black" href="./220.html"
+                >Plan 220</a
+              >
+            </div>
+            <div>
+              <a class="text-decoration-none text-black" href="./330.html"
+                >Plan 330</a
+              >
+            </div>
+            <div>
+              <a class="text-decoration-none text-black" href="./440.html"
+                >Plan 440</a
+              >
+            </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
             <h5>Contacto</h5>
-            <div><a class="text-decoration-none text-black" href="https://www.instagram.com/" target="_blank">Instagram</a></div>
-            <div><a class="text-decoration-none text-black" href="https://www.facebook.com/" target="_blank">Facebook</a></div>
+            <div>
+              <a
+                class="text-decoration-none text-black"
+                href="https://www.instagram.com/"
+                target="_blank"
+                >Instagram</a
+              >
+            </div>
+            <div>
+              <a
+                class="text-decoration-none text-black"
+                href="https://www.facebook.com/"
+                target="_blank"
+                >Facebook</a
+              >
+            </div>
             <div><h6>Direccion: Balcarce 50 - CABA</h6></div>
           </div>
-          <div><p class="text-center text-black mt-3 mb-3">©Copyright - OSPROGRA</p></div>
+          <div>
+            <p class="text-center text-black mt-3 mb-3">
+              ©Copyright - OSPROGRA
+            </p>
+          </div>
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
